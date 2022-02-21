@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.akilliajans.KriptoTakipv1.view.MainActivity">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        android:layout_marginBottom="150dp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/cyrptoprogramlogo" />
+
+                <EditText
+                    android:id="@+id/coinSearchText"
+                    android:layout_width="115dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+
+                    android:autofillHints="Search Coin"
+                    android:gravity="center"
+                    android:hint="Search Coin"
+                    android:inputType="textCapCharacters"
+                    android:maxLines="1"
+
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="#F6EFEF"
+                    android:textSize="16sp"
+
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/coinResultText"
+                    android:layout_width="178dp"
+                    android:layout_height="80dp"
+
+                    android:gravity="center"
+                    android:hint=""
+                    android:maxLines="1"
+                    android:textColor="@color/white"
+                    android:textColorHint="#FAF5F5"
+                    android:textSize="15sp"
+
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:text="Data is Not Instant"
+            android:gravity="center"
+            android:textColor="@color/SeaBlue"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/cryptoListRV"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

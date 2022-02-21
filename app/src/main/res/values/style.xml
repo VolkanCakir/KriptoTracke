@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="radio_button_style">
+
+        <item name="android:button">@android:color/transparent</item>
+        <item name="android:radius">30sp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/radio_background_up</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_width">55dp</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+<style name="price_down_theme">
+    <item name="android:textColor">@color/sparkRed</item>
+    <item name="android:textSize">35sp</item>
+    <item name="android:textStyle">bold</item>
+</style>
+
+<style name="price_up_theme">
+<item name="android:textColor">@color/sparkGreen</item>
+<item name="android:textSize">35sp</item>
+<item name="android:textStyle">bold</item>
+</style>
+</resources>

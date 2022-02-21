@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "901828151803",
+    "project_id": "kriptotracke1",
+    "storage_bucket": "kriptotracke1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901828151803:android:359148302ec80673cfa35e",
+        "android_client_info": {
+          "package_name": "com.akilliajans.KriptoTakipv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901828151803-han0frr3ljgtuuktl453bilfaedp15b6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdHu90vYLQ1uNdYtEB7MjHWHj2DEyqfMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901828151803-han0frr3ljgtuuktl453bilfaedp15b6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
