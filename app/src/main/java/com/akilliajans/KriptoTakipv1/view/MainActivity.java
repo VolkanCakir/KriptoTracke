@@ -55,7 +55,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String ONESIGNAL_APP_ID = "79b7f3da-af9c-4200-9515-9d04903d32e4";
+    private static final String ONESIGNAL_APP_ID = "7xxxxxx";
 
     TextView textView;
     ImageView imageView;
